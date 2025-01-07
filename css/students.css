@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Bluu Next Cyrillic";
+    src: url(../fonts/Bluu_Next_Cyrillic.ttff) format('ttff'), url(../fonts/Bluu_Next_Cyrillic.woff) format('woff');
+    font-weight: 700;
+  }
+
+body{
+    font-family: "Bluu Next Cyrillic";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1D1D1D;
+    text-align: center;
+    width: 1500px;
+}
+h1{
+    color: #FABF59;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    line-height: 100px;
+    letter-spacing: 0.8px;
+}
+.container{
+    margin: 0 130px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-item{
+    width: 295px;
+    height: 452px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #fff;
+}
+.card-info{
+    margin-top: 282px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* margin-right: 90px; */
+    font-family: Inter;
+}
+.card-name{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36.4px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    text-align: left;
+}
+.common-info{
+    color: #FABF59;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-top: 0;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+.card-text{
+}
+.card-facultet{
+}
+.card-btn{
+    width: 185px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    text-align: left;
+    display: block;
+}
+.st-1{
+    background-image: url(../images/students/harry.png);
+}
+.st-2{
+    background-image: url(../images/students/st_2.png);
+}
+.st-3{
+    background-image: url(../images/students/st_3.png);
+}
+.st-4{
+    background-image: url(../images/students/st_4.png);
+}
+.st-5{
+    background-image: url(../images/students/st_5.png);
+}
+.st-6{
+    background-image: url(../images/students/st_6.png);
+}
+.st-7{
+    background-image: url(../images/students/st_7.png);
+}
+.st-8{
+    background-image: url(../images/students/st_8.png);
+}

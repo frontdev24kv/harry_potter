@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/students.css">
     <title>Студенти Гоґвортсу</title>
 </head>
 <body>
     <h1>Студенти Гоґвортсу</h1>
     <div class="container">
-        <div class="card-item st-1">
-           <div class="card-info">
-               <h2 class="card-name">Harry Potter</h2>
-               <p class="card-text common-info">The Boy Who Lived</p>
-               <p class="card-facultet common-info">Gryffindor</p>
-               <p class="card-birthday common-info">31-07-1980</p>
-               <button class="card-btn">Більше інформації</button>
-           </div>      
+        <div class="hover-item">
+            <p class="first item">Name: <span>Harry Potter</span></p>
+            <p class="alt-name">Alternate names: <span>The Boy Who Lived, The Chosen One</span></p>
+            <p>Species: <span>Human</span></p>
+            <p>Gend: <span>Male</span></p>
+            <p>House: <span>Gryffindor</span></p>
+            <p>Date of birth: <span>31-07-1980</span></p>
+            <p>Year of birth: <span>1980</span></p>
+            <p>Wizard: <span>True</span></p>
+            <p>Ancestry: <span>Half-blood</span></p>
+            <p>Eye colour: <span>Green</span></p>
+            <p>Hair colour: <span>Black</span></p>
+            <p>Wand: <span>Wood : holly, core : phoenix feather, length : 11</span></p>
+            <p>Patronus: <span>Stag</span></p>
+            <p>Hogwarts student: <span>True</span></p>
+            <p>Hogwarts staff: <span>False</span></p>
+            <p>Actor: <span>Daniel Radcliff</span></p>
+            <p>Alive: <span>True</span></p>
+            <button id="hover-btn" class="hover-btn">Go back</button>
+        </div>
+        <div class="card-item st-1" id="harry">
+            <div class="card-info" id="card-info">
+                <h2 class="card-name">Harry Potter</h2>
+                <p class="card-text common-info">The Boy Who Lived</p>
+                <p class="card-facultet common-info">Gryffindor</p>
+                <p class="card-birthday common-info">31-07-1980</p>
+                <button class="card-btn" id="card-btn">Більше інформації</button>
+            </div>
         </div>
         <div class="card-item st-2">
             <div class="card-info">
@@ -28,7 +51,7 @@
                 <p class="card-facultet common-info">Gryffindor</p>
                 <p class="card-birthday common-info">19-09-1979</p>
                 <button class="card-btn">Більше інформації</button>
-            </div>  
+            </div>
         </div>
         <div class="card-item st-3">
             <div class="card-info">
@@ -37,7 +60,7 @@
                 <p class="card-facultet common-info">Gryffindor</p>
                 <p class="card-birthday common-info">01-03-1980</p>
                 <button class="card-btn">Більше інформації</button>
-            </div>  
+            </div>
         </div>
         <div class="card-item st-4">
             <div class="card-info">
@@ -46,7 +69,7 @@
                 <p class="card-facultet common-info">Slytherin</p>
                 <p class="card-birthday common-info">05-06-1980</p>
                 <button class="card-btn">Більше інформації</button>
-            </div>  
+            </div>
         </div>
         <div class="card-item st-5">
             <div class="card-info">
@@ -55,7 +78,7 @@
                 <p class="card-facultet common-info">Hufflepuff</p>
                 <p class="card-birthday common-info">31-07-1980</p>
                 <button class="card-btn">Більше інформації</button>
-            </div>  
+            </div>
         </div>
         <div class="card-item st-6">
             <div class="card-info">
@@ -64,7 +87,7 @@
                 <p class="card-facultet common-info">Ravenclaw</p>
                 <p class="card-birthday common-info">07-04-1979</p>
                 <button class="card-btn">Більше інформації</button>
-            </div>  
+            </div>
         </div>
         <div class="card-item st-7">
             <div class="card-info">
@@ -73,7 +96,7 @@
                 <p class="card-facultet common-info">Gryffindor</p>
                 <p class="card-birthday common-info">30-07-1980</p>
                 <button class="card-btn">Більше інформації</button>
-            </div>  
+            </div>
         </div>
         <div class="card-item st-8">
             <div class="card-info">
@@ -82,8 +105,10 @@
                 <p class="card-facultet common-info">Ravenclaw</p>
                 <p class="card-birthday common-info">13-02-1981</p>
                 <button class="card-btn">Більше інформації</button>
-            </div>  
+            </div>
         </div>
     </div>
+    <script src="../scripts/students.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Bluu Next Cyrillic";
+    src: url(../fonts/Bluu_Next_Cyrillic.ttff) format('ttff'), url(../fonts/Bluu_Next_Cyrillic.woff) format('woff');
+    font-weight: 700;
+  }
+
+body{
+    font-family: "Bluu Next Cyrillic";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1D1D1D;
+    text-align: center;
+    width: 1500px;
+}
+h1{
+    color: #FABF59;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    line-height: 100px;
+    letter-spacing: 0.8px;
+}
+.container{
+    margin: 0 130px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-item{
+    width: 295px;
+    height: 452px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #fff;
+}

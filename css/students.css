@@ -33,15 +33,68 @@ h1{
 .card-item{
     width: 295px;
     height: 452px;
-    background-color: #fff;
     border-radius: 20px;
     color: #fff;
 }
+.hover-item{
+    display: none;
+    border: 1px solid gold;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    font-family: Inter;
+    /*  */
+    background-image: url(../images/students/hover.png);
+    background-repeat: no-repeat;
+    width: 293px;
+    height: 450px;
+}
+.first.item{
+    margin-top: 20px;
+}
+.hover-item span{
+    color: #FABF59;
+    margin: 0 20px 2px 0;
+    font-weight: 500;
+}
+.hover-item p{
+    margin: 0 10px 2px 20px;
+    color: #fff;
+}
+.hover-btn{
+    width: 250px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    padding-left: 100px;
+    font-size: 14px;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+}
+.alt-name{
+    width: 220px;
+}
+/* .card-item:hover{
+   background-image: url(../images/students/hover.png);
+   background-repeat: no-repeat;
+   width: 293px;
+   height: 450px;
+  .card-info{
+    display: none;
+  }
+  .hover-item{
+    display: block;
+  }
+} */
 .card-info{
     margin-top: 282px;
     margin-bottom: 20px;
     margin-left: 20px;
-    /* margin-right: 90px; */
     font-family: Inter;
 }
 .card-name{
@@ -81,6 +134,7 @@ h1{
     background-position: right center;
     text-align: left;
     display: block;
+    cursor: pointer;
 }
 .st-1{
     background-image: url(../images/students/harry.png);

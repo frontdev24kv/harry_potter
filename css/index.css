@@ -2,7 +2,7 @@
     font-family: "Bluu Next Cyrillic";
     src: url(../fonts/Bluu_Next_Cyrillic.ttff) format('ttff'), url(../fonts/Bluu_Next_Cyrillic.woff) format('woff');
     font-weight: 700;
-  }
+}
 
 body {
     margin: 0;
@@ -11,6 +11,7 @@ body {
     font-family: "Bluu Next Cyrillic";
     text-align: center;
 }
+
 .main-img {
     background-image: url(../images/image.png);
     background-repeat: no-repeat;
@@ -19,7 +20,8 @@ body {
     height: 740px;
     position: relative;
 }
-.main-header{
+
+.main-header {
     width: 904px;
     height: 200px;
     margin: 0;
@@ -32,9 +34,11 @@ body {
     font-weight: 700;
     letter-spacing: 0.8px;
 }
-h1 span{
+
+h1 span {
     white-space: nowrap;
 }
+
 .main-btn {
     margin-top: 80px;
     position: absolute;
@@ -51,12 +55,22 @@ h1 span{
     border-radius: 100px;
     transition: all 0.5s;
 }
-.main-btn:hover{
+
+.main-btn:hover {
     color: #F9B50C;
     background-color: transparent;
     border: 1px solid #F9B50C;
 }
-.gradient{
+
+.main-btn:disabled {
+    background-color: gray;
+    color: lightgray;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.gradient {
     width: 1500px;
     height: 531px;
     background: linear-gradient(to bottom, #1D1D1D 100%, #1D1D1D 82.06%, #1D1D1D 0);
@@ -65,13 +79,15 @@ h1 span{
     justify-content: center;
     gap: 20px;
 }
-.main-cart{
+
+.main-cart {
     background-repeat: no-repeat;
     width: 400px;
     height: 479px;
     position: relative;
 }
-.cart-btn{
+
+.cart-btn {
     position: absolute;
     top: 420px;
     width: 320px;
@@ -88,17 +104,26 @@ h1 span{
     text-align: center;
     transition: all 0.3s;
 }
-.cart-btn:hover{
+
+.cart-btn:hover {
     color: #1d1d1d;
-    border:none;
+    border: none;
     background-color: #F9B50C;
 }
-.main-student{
+
+.main-student {
     background-image: url(../images/main/main_student.png);
 }
-.main-personal{
+
+.main-personal {
     background-image: url(../images/main/main_personal.png);
 }
-.main-house{
+
+.main-house {
     background-image: url(../images/main/main_house.png);
+}
+
+.hidden-content {
+    display: none;
+    position: relative;
 }

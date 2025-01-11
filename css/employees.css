@@ -38,6 +38,9 @@ h1{
     height: 452px;
     border-radius: 20px;
     color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .card-mask{
     width: 295px;

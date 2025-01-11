@@ -35,6 +35,11 @@ h1{
     height: 452px;
     border-radius: 20px;
     color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
 }
 .card-mask{
     width: 295px;
@@ -45,7 +50,7 @@ h1{
     background: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgb(15, 15, 15, .74), rgba(15, 15, 15, 1));
 }
 .hover-item{
-    display: none;
+    display: block;
     border: 1px solid gold;
     border-radius: 20px;
     text-align: left;
@@ -58,6 +63,8 @@ h1{
     background-repeat: no-repeat;
     width: 293px;
     height: 450px;
+    position: relative;
+    z-index: 0;
 }
 .first.item{
     margin-top: 20px;
@@ -87,32 +94,6 @@ h1{
 .alt-name{
     width: 220px;
 }
-/* .card-item:hover{
-   background-image: url(../images/students/hover.png);
-   background-repeat: no-repeat;
-   width: 293px;
-   height: 450px;
-  .card-info{
-    display: none;
-  }
-  .hover-item{
-    display: block;
-  }
-} */
-/* .card-info{
-    margin-top: 282px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    font-family: Inter;
-}
-.card-name{
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 36.4px;
-    margin-bottom: 5px;
-    margin-left: 20px;
-    text-align: left;
-} */
 .card-info{
     display: flex;
     flex-direction: column;
@@ -134,17 +115,11 @@ h1{
     line-height: 22.4px;
     margin-top: 0;
     text-align: left;
-    margin-left: 20px;
     margin-bottom: 3px;
-}
-.card-text{
-}
-.card-facultet{
 }
 .card-btn{
     width: 185px;
     margin-top: 15px;
-    margin-left: 20px;
     font-size: 16px;
     font-weight: 500;
     line-height: 22.4px;
@@ -181,4 +156,21 @@ h1{
 }
 .st-8{
     background-image: url(../images/students/st_8.png);
+}
+.show-more-btn{
+    width: 300px;
+    height: 59px;
+    background-color: #FABF59;
+    color: #1D1D1D;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hidden-item{
+    display: none
+}
+.shown-item{
+    display: block
 }

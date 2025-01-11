@@ -11,7 +11,7 @@ mainBtn.addEventListener("click", () => {
 })
 
 studentsBtn.addEventListener("click", () => {
-    window.location.assign("./site/students.html")
+        window.location.assign("./site/students.html")   
 })
 
 employeesBtn.addEventListener("click", () => {

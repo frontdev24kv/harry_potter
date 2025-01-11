@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Bluu Next Cyrillic";
+    src: url(../fonts/Bluu_Next_Cyrillic.ttff) format('ttff'), url(../fonts/Bluu_Next_Cyrillic.woff) format('woff');
+    font-weight: 700;
+  }
+
+body{
+    font-family: "Bluu Next Cyrillic";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1D1D1D;
+    text-align: center;
+    width: 1500px;
+}
+h1{
+    color: #FABF59;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 404px;
+    line-height: 100px;
+    letter-spacing: 0.8px;
+    width: 693px;
+    height: 200px;
+}
+.container{
+    margin: 0 130px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-item{
+    width: 295px;
+    height: 452px;
+    border-radius: 20px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-mask{
+    width: 295px;
+    height: 272px;
+    margin-top: 180px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgb(15, 15, 15, .74), rgba(15, 15, 15, 1));
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+    font-family: Inter;
+}
+.card-name{
+    margin-top: 102px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36.4px;
+}
+.card-common-styles{
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: #FABF59;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.card-btn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    width: 185px;
+}
+.arrow{
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.emp_1{
+    background-image: url(../images/employees/emp_1.png);
+}
+.emp_2{
+    background-image: url(../images/employees/emp_2.png);
+}
+.emp_3{
+    background-image: url(../images/employees/emp_3.png);
+}
+.emp_4{
+    background-image: url(../images/employees/emp_4.png);
+}
+.emp_5{
+    background-image: url(../images/employees/emp_5.png);
+}
+.emp_6{
+    background-image: url(../images/employees/emp_6.png);
+}
+.emp_7{
+    background-image: url(../images/employees/emp_7.png);
+}
+.emp_8{
+    background-image: url(../images/employees/emp_8.png);
+}

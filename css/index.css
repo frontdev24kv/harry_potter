@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Bluu Next Cyrillic";
+    src: url(../fonts/Bluu_Next_Cyrillic.ttff) format('ttff'), url(../fonts/Bluu_Next_Cyrillic.woff) format('woff');
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bluu Next Cyrillic";
+    text-align: center;
+}
+
+.main-img {
+    background-image: url(../images/image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1500px;
+    height: 740px;
+    position: relative;
+}
+
+.main-header {
+    width: 904px;
+    height: 200px;
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 298px;
+    color: #FABF59;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+h1 span {
+    white-space: nowrap;
+}
+
+.main-btn {
+    margin-top: 80px;
+    position: absolute;
+    top: 380px;
+    left: 600px;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    color: #1D1D1D;
+    background-color: #F9B50C;
+    border: none;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+
+.main-btn:hover {
+    color: #F9B50C;
+    background-color: transparent;
+    border: 1px solid #F9B50C;
+}
+
+.main-btn:disabled {
+    background-color: gray;
+    color: lightgray;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.gradient {
+    width: 1500px;
+    height: 531px;
+    background: linear-gradient(to bottom, #1D1D1D 100%, #1D1D1D 82.06%, #1D1D1D 0);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-cart {
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 479px;
+    position: relative;
+}
+
+.cart-btn {
+    position: absolute;
+    top: 420px;
+    width: 320px;
+    display: block;
+    margin-left: 40px;
+    padding: 18px 0 18px;
+    color: #F9B50C;
+    background-color: transparent;
+    border: 1px solid #F9B50C;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.cart-btn:hover {
+    color: #1d1d1d;
+    border: none;
+    background-color: #F9B50C;
+}
+
+.main-student {
+    background-image: url(../images/main/main_student.png);
+}
+
+.main-personal {
+    background-image: url(../images/main/main_personal.png);
+}
+
+.main-house {
+    background-image: url(../images/main/main_house.png);
+}
+
+.hidden-content {
+    display: none;
+    position: relative;
+}

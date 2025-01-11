@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Bluu Next Cyrillic";
+    src: url(../fonts/Bluu_Next_Cyrillic.ttff) format('ttff'), url(../fonts/Bluu_Next_Cyrillic.woff) format('woff');
+    font-weight: 700;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1D1d1d;
+    color: #FABF59;
+    font-family: "Bluu Next Cyrillic";
+    width: 1500px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    width: 840px;
+    margin: 100px 330px 70px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.8px;
+}
+.main-container{
+    width: 1240px;
+    margin: 0 auto;
+}
+header{
+    border-radius: 100px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.house{
+    display: flex;
+    color: #fff;
+    width: 315px;
+    height: 59px;
+    text-transform: uppercase;
+}
+.checked-house{
+    background-color: #F9B50C;
+    border-radius: 100px;
+    color: #1D1d1d;
+    border: none;
+}
+.img-container{
+    margin: 10px 7.5px 11px 75px;
+    width: 35px;
+    height: 38px;
+}
+.house-name{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    letter-spacing: 0.18px;
+    height: 23px;
+    padding-top: 3px;
+    margin: 18px 0;
+    cursor: pointer;
+}
+.container{
+    margin: 0 130px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-item{
+    width: 295px;
+    height: 452px;
+    border-radius: 20px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-mask{
+    width: 295px;
+    height: 272px;
+    margin-top: 180px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgb(15, 15, 15, .74), rgba(15, 15, 15, 1));
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+    font-family: Inter;
+}
+.card-name{
+    margin-top: 102px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36.4px;
+}
+.card-common-styles{
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: #FABF59;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.card-btn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    width: 185px;
+}
+.arrow{
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.gr_1{
+    background-image: url(../images/griffindor/gr_1.png);
+}
+.gr_2{
+    background-image: url(../images/griffindor/gr_2.png);
+}
+.gr_3{
+    background-image: url(../images/griffindor/gr_3.png);
+}
+.gr_4{
+    background-image: url(../images/griffindor/gr_4.png);
+}
+.gr_5{
+    background-image: url(../images/griffindor/gr_5.png);
+}
+.gr_6{
+    background-image: url(../images/griffindor/gr_6.png);
+}
+.gr_7{
+    background-image: url(../images/griffindor/gr_7.png);
+}
+.gr_8{
+    background-image: url(../images/griffindor/gr_8.png);
+}
